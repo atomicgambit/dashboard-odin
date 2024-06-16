@@ -1,0 +1,23 @@
+header,
+main,
+aside {
+  background-color: aqua;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+header {
+  grid-column: 2 / 3;
+}
+
+main {
+  grid-column: 2 / 3;
+}
+
+aside {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
