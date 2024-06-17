@@ -315,6 +315,10 @@ nav {
   gap: 2rem;
 }
 
+.dashboard-title, .nav-links-1 li, .nav-links-2 li {
+  padding: 0.5rem 1rem;
+}
+
 .empty-line {
   border-bottom: 1px solid black;
 }
