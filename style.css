@@ -322,6 +322,17 @@ nav {
 .empty-line {
   border-bottom: 1px solid black;
 }
+
+li > a {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+a > img {
+	max-width: 1rem;
+}
+
 /* Styling all links */
 
 ul {
