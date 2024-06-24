@@ -313,6 +313,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 1rem;
 }
 
 .dashboard-title, .nav-links-1 li, .nav-links-2 li {
@@ -329,8 +330,46 @@ li > a {
 	gap: 1rem;
 }
 
-a > img {
-	max-width: 1rem;
+a > img, .magnify, .notification {
+	max-width: 1.5rem;
+}
+
+.profile-picture {
+	max-width: 5rem;
+	border-radius: 50%;
+}
+
+.searchbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+
+	padding: 0.5rem;
+}
+
+.left-search {
+	display: flex;
+	align-items: center;
+	align-content: stretch;
+	flex-grow: 1;
+	gap: 1rem;
+}
+
+.searchbox {
+	flex-grow: 1;
+}
+
+.searchbox input[type='search'] {
+	width: 60%;
+}
+
+
+.right-search {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 2rem;
 }
 
 /* Styling all links */
