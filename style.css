@@ -334,8 +334,13 @@ a > img, .magnify, .notification {
 	max-width: 1.5rem;
 }
 
-.profile-picture {
-	max-width: 5rem;
+.profile-picture-1 {
+	max-width: 4rem;
+	border-radius: 50%;
+}
+
+.profile-picture-2 {
+	max-width: 6rem;
 	border-radius: 50%;
 }
 
@@ -372,6 +377,36 @@ a > img, .magnify, .notification {
 	gap: 2rem;
 }
 
+header > button {
+	border-radius: 18px;
+	padding: 0.5rem 1rem;
+	font-weight: bold;
+}
+
+.bottom-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 1rem;
+}
+
+.buttons-header {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.name-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+
+
+
 /* Styling all links */
 
 ul {
@@ -393,4 +428,13 @@ a:hover {
 
 a:active {
   text-decoration: underline;
+}
+
+.card {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
 }
