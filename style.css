@@ -432,8 +432,11 @@ a:active {
 
 .card {
 	padding: 1rem;
+	border-radius: 5px;
 
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	min-height: 200px;
+	max-width: 500px;
 }
 
 .card h3 {
@@ -446,12 +449,12 @@ main {
 }
 
 .projects {
+	padding: 1rem;
+
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 0.5fr 1fr 1fr 1fr;
-
+	grid-template-rows: auto 1fr 1fr 1fr;
 	row-gap: 2rem;
-	column-gap: 2rem;
 }
 
 .projects h2 {
